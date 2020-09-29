@@ -25,7 +25,7 @@ This repository includes:
 
 ------------------------
 
-Run all scripts with `bebopnet` as root.  
+Run all scripts with `bebopnet-code` as root.  
 If you are only interested in generating improvisations, skip to step 2.
 
 ------------------------
