@@ -1,0 +1,1 @@
+{"n_layer": 4, "n_head": 8, "d_model": 400, "d_head": 50, "d_inner": 1028, "dropout": 0.3, "dropatt": 0.3, "tie_weight": true, "d_embed": 400, "pre_lnorm": false, "tgt_len": 64, "ext_len": 0, "mem_len": 64, "clamp_len": -1, "pitch_sizes": [130, 64], "duration_sizes": [121, 64], "offset_sizes": [48, 16], "chord_bias": false}

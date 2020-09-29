@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+#install packages
+sudo apt-get install lame
+sudo apt-get install libsox-fmt-mp3
+sudo apt install sox
+
+# pyglet requirements. See: https://pyglet.readthedocs.io/en/pyglet-1.3-maintenance/programming_guide/media.html#audio-drivers
+wget https://github.com/downloads/AVbin/AVbin/install-avbin-linux-x86-64-v10
+sudo install-avbin-linux-x86-64-v10
+#ffmpeg >4.0
+sudo add-apt-repository ppa:jonathonf/ffmpeg-4
+sudo apt-get install ffmpeg
+
+
+# Timidity
