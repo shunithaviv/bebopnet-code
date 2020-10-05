@@ -215,3 +215,18 @@ python jazz_rnn/B_next_not_prediction/generate_from_xml.py --score_model path_to
 
 Use the same parameters as step 2, with addition:
 - `--score_model` path to the user preference metric for the beam search to optimize.
+
+-------------------------------
+
+# Citation
+
+If you found this code helpful, please consider citing us:
+
+```
+@inproceedings{haviv2020bebopnet,
+title	= {BebopNet: Deep Neural Models for Personalized Jazz Improvisations},
+author	= {Shunit Haviv Hakimi and Nadav Bhonker and Ran El-Yaniv},
+year	= {2020},
+booktitle	= {Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR)}
+}
+```
