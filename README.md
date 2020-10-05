@@ -220,7 +220,7 @@ Use the same parameters as step 2, with addition:
 
 # Citation
 
-If you found this code helpful, please consider citing us:
+If you found our code helpful, please consider citing us:
 
 ```
 @inproceedings{haviv2020bebopnet,
