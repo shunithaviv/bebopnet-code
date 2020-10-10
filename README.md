@@ -2,7 +2,7 @@
 
 This repository contains PyTorch implementation and a trained model for our paper:
 
-> [BebopNet: Deep Neural Models for Personalized Jazz Improvisations]()   
+> [BebopNet: Deep Neural Models for Personalized Jazz Improvisations](https://program.ismir2020.net/poster_6-08.html)   
 >
 > Shunit Haviv Hakimi, Nadav Bhonker, Ran El-Yaniv
 > Computer Science Department, Technion – Israel Institute of Technology  
@@ -224,9 +224,9 @@ If you found our code helpful, please consider citing us:
 
 ```
 @inproceedings{haviv2020bebopnet,
-title={BebopNet: Deep Neural Models for Personalized Jazz Improvisations},
-author={Shunit Haviv Hakimi and Nadav Bhonker and Ran El-Yaniv},
-year={2020},
-booktitle={Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR)}
+  title={BebopNet: Deep Neural Models for Personalized Jazz Improvisations},
+  author={Shunit Haviv Hakimi and Nadav Bhonker and Ran El-Yaniv},
+  year={2020},
+  booktitle={Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR)}
 }
 ```
