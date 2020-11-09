@@ -107,13 +107,12 @@ python jazz_rnn/B_next_note_prediction/transformer/train.py --config path_to_yml
 ```
 python jazz_rnn/B_next_not_prediction/generate_from_xml.py
 ```
-- You should manually update `jazz_rnn/B_next_not_prediction/generation_utils.py` with the following details:
+- If you wish to add a new song, please manually update `jazz_rnn/B_next_not_prediction/generation_utils.py` with the following details:
     - Paths to xml file of jazz standard (or any song) for BebopNet to improvise over.
     - Paths to mp3 files of backing track of the jazz standard. Notice its tempo should match the xml file.
     - Further details are explained in `generation_utils.py`. 
         Also, take a look at `set_args_by_song_name()` in `generate_from_xml.py`. 
         This is where the we use the defined dictionaries. 
-    - The song to improvise over may be ********************
 - Song, model and saving arguments:
     - `--song` name of song to improvise over as defined in `generation_utils.py`
     - `--model_dir` path to directory of the model for generating improvisations
